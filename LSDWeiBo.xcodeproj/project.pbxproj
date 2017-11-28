@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182C958C1FCDAFE800564754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C958B1FCDAFE800564754 /* AppDelegate.swift */; };
+		182C958E1FCDAFE800564754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C958D1FCDAFE800564754 /* ViewController.swift */; };
+		182C95911FCDAFE800564754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182C958F1FCDAFE800564754 /* Main.storyboard */; };
+		182C95931FCDAFE800564754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182C95921FCDAFE800564754 /* Assets.xcassets */; };
+		182C95961FCDAFE800564754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182C95941FCDAFE800564754 /* LaunchScreen.storyboard */; };
+		182C95A11FCDAFE800564754 /* LSDWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C95A01FCDAFE800564754 /* LSDWeiBoTests.swift */; };
+		182C95AC1FCDAFE800564754 /* LSDWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C95AB1FCDAFE800564754 /* LSDWeiBoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182C959D1FCDAFE800564754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C95801FCDAFE800564754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182C95871FCDAFE800564754;
+			remoteInfo = LSDWeiBo;
+		};
+		182C95A81FCDAFE800564754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C95801FCDAFE800564754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182C95871FCDAFE800564754;
+			remoteInfo = LSDWeiBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182C95881FCDAFE800564754 /* LSDWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C958B1FCDAFE800564754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182C958D1FCDAFE800564754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182C95901FCDAFE800564754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182C95921FCDAFE800564754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182C95951FCDAFE800564754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182C95971FCDAFE800564754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182C959C1FCDAFE800564754 /* LSDWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C95A01FCDAFE800564754 /* LSDWeiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSDWeiBoTests.swift; sourceTree = "<group>"; };
+		182C95A21FCDAFE800564754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182C95A71FCDAFE800564754 /* LSDWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C95AB1FCDAFE800564754 /* LSDWeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSDWeiBoUITests.swift; sourceTree = "<group>"; };
+		182C95AD1FCDAFE800564754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182C95851FCDAFE800564754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C95991FCDAFE800564754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C95A41FCDAFE800564754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182C957F1FCDAFE800564754 = {
+			isa = PBXGroup;
+			children = (
+				182C958A1FCDAFE800564754 /* LSDWeiBo */,
+				182C959F1FCDAFE800564754 /* LSDWeiBoTests */,
+				182C95AA1FCDAFE800564754 /* LSDWeiBoUITests */,
+				182C95891FCDAFE800564754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182C95891FCDAFE800564754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182C95881FCDAFE800564754 /* LSDWeiBo.app */,
+				182C959C1FCDAFE800564754 /* LSDWeiBoTests.xctest */,
+				182C95A71FCDAFE800564754 /* LSDWeiBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182C958A1FCDAFE800564754 /* LSDWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				182C958B1FCDAFE800564754 /* AppDelegate.swift */,
+				182C958D1FCDAFE800564754 /* ViewController.swift */,
+				182C958F1FCDAFE800564754 /* Main.storyboard */,
+				182C95921FCDAFE800564754 /* Assets.xcassets */,
+				182C95941FCDAFE800564754 /* LaunchScreen.storyboard */,
+				182C95971FCDAFE800564754 /* Info.plist */,
+			);
+			path = LSDWeiBo;
+			sourceTree = "<group>";
+		};
+		182C959F1FCDAFE800564754 /* LSDWeiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				182C95A01FCDAFE800564754 /* LSDWeiBoTests.swift */,
+				182C95A21FCDAFE800564754 /* Info.plist */,
+			);
+			path = LSDWeiBoTests;
+			sourceTree = "<group>";
+		};
+		182C95AA1FCDAFE800564754 /* LSDWeiBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182C95AB1FCDAFE800564754 /* LSDWeiBoUITests.swift */,
+				182C95AD1FCDAFE800564754 /* Info.plist */,
+			);
+			path = LSDWeiBoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182C95871FCDAFE800564754 /* LSDWeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C95B01FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBo" */;
+			buildPhases = (
+				182C95841FCDAFE800564754 /* Sources */,
+				182C95851FCDAFE800564754 /* Frameworks */,
+				182C95861FCDAFE800564754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSDWeiBo;
+			productName = LSDWeiBo;
+			productReference = 182C95881FCDAFE800564754 /* LSDWeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182C959B1FCDAFE800564754 /* LSDWeiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C95B31FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBoTests" */;
+			buildPhases = (
+				182C95981FCDAFE800564754 /* Sources */,
+				182C95991FCDAFE800564754 /* Frameworks */,
+				182C959A1FCDAFE800564754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182C959E1FCDAFE800564754 /* PBXTargetDependency */,
+			);
+			name = LSDWeiBoTests;
+			productName = LSDWeiBoTests;
+			productReference = 182C959C1FCDAFE800564754 /* LSDWeiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182C95A61FCDAFE800564754 /* LSDWeiBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C95B61FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBoUITests" */;
+			buildPhases = (
+				182C95A31FCDAFE800564754 /* Sources */,
+				182C95A41FCDAFE800564754 /* Frameworks */,
+				182C95A51FCDAFE800564754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182C95A91FCDAFE800564754 /* PBXTargetDependency */,
+			);
+			name = LSDWeiBoUITests;
+			productName = LSDWeiBoUITests;
+			productReference = 182C95A71FCDAFE800564754 /* LSDWeiBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182C95801FCDAFE800564754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					182C95871FCDAFE800564754 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					182C959B1FCDAFE800564754 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182C95871FCDAFE800564754;
+					};
+					182C95A61FCDAFE800564754 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182C95871FCDAFE800564754;
+					};
+				};
+			};
+			buildConfigurationList = 182C95831FCDAFE800564754 /* Build configuration list for PBXProject "LSDWeiBo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182C957F1FCDAFE800564754;
+			productRefGroup = 182C95891FCDAFE800564754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182C95871FCDAFE800564754 /* LSDWeiBo */,
+				182C959B1FCDAFE800564754 /* LSDWeiBoTests */,
+				182C95A61FCDAFE800564754 /* LSDWeiBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182C95861FCDAFE800564754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182C95961FCDAFE800564754 /* LaunchScreen.storyboard in Resources */,
+				182C95931FCDAFE800564754 /* Assets.xcassets in Resources */,
+				182C95911FCDAFE800564754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C959A1FCDAFE800564754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C95A51FCDAFE800564754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182C95841FCDAFE800564754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182C958E1FCDAFE800564754 /* ViewController.swift in Sources */,
+				182C958C1FCDAFE800564754 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C95981FCDAFE800564754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182C95A11FCDAFE800564754 /* LSDWeiBoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C95A31FCDAFE800564754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182C95AC1FCDAFE800564754 /* LSDWeiBoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182C959E1FCDAFE800564754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182C95871FCDAFE800564754 /* LSDWeiBo */;
+			targetProxy = 182C959D1FCDAFE800564754 /* PBXContainerItemProxy */;
+		};
+		182C95A91FCDAFE800564754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182C95871FCDAFE800564754 /* LSDWeiBo */;
+			targetProxy = 182C95A81FCDAFE800564754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182C958F1FCDAFE800564754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182C95901FCDAFE800564754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182C95941FCDAFE800564754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182C95951FCDAFE800564754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182C95AE1FCDAFE800564754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182C95AF1FCDAFE800564754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182C95B11FCDAFE800564754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182C95B21FCDAFE800564754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182C95B41FCDAFE800564754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDWeiBo.app/LSDWeiBo";
+			};
+			name = Debug;
+		};
+		182C95B51FCDAFE800564754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDWeiBo.app/LSDWeiBo";
+			};
+			name = Release;
+		};
+		182C95B71FCDAFE800564754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSDWeiBo;
+			};
+			name = Debug;
+		};
+		182C95B81FCDAFE800564754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X7HHKC8VZ;
+				INFOPLIST_FILE = LSDWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luosidicompany.LSDWeiBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSDWeiBo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182C95831FCDAFE800564754 /* Build configuration list for PBXProject "LSDWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C95AE1FCDAFE800564754 /* Debug */,
+				182C95AF1FCDAFE800564754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C95B01FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C95B11FCDAFE800564754 /* Debug */,
+				182C95B21FCDAFE800564754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C95B31FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C95B41FCDAFE800564754 /* Debug */,
+				182C95B51FCDAFE800564754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C95B61FCDAFE800564754 /* Build configuration list for PBXNativeTarget "LSDWeiBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C95B71FCDAFE800564754 /* Debug */,
+				182C95B81FCDAFE800564754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182C95801FCDAFE800564754 /* Project object */;
+}
